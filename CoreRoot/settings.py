@@ -40,8 +40,12 @@ INSTALLED_APPS = [
 
     # external packages apps
 
+    'rest_framework',
+    'rest_framework_simplejwt',
+
     'core',
     'core.user',
+    'core.auth'
 ]
 
 MIDDLEWARE = [
